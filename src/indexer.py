@@ -12,7 +12,8 @@ def chunk_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
         chunks.append(chunk)
         start = end - overlap  
     return chunks
-text = load_document("../docs/RAG.docx")
-chunks = chunk_text(text)
-print(f"Nombre de chunks : {len(chunks)}")
-print("Premier chunk :\n", chunks[0])
+ ######## Test 
+# text = load_document("../docs/RAG.docx")
+# chunks = chunk_text(text)
+# print(f"Nombre de chunks : {len(chunks)}")
+# print("Premier chunk :\n", chunks[0])
